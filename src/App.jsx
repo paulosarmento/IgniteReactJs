@@ -1,11 +1,9 @@
-import { Counter } from "./components/Counter";
 import { RepositoryList } from "./components/RepositoryList";
 import "./styles/global.scss";
 export default function App() {
   return (
     <div>
       <RepositoryList />
-      <Counter />
     </div>
   );
 }
